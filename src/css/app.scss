@@ -1,0 +1,25 @@
+// app global css in SCSS form
+.q-scrollarea__content {
+  background-color: #041737 !important;
+  padding: 20px;
+
+  .q-item__section {
+    color: #496082;
+  }
+}
+
+table {
+  thead {
+    th {
+      font-size: 16px !important;
+      font-weight: bolder !important;
+    }
+  }
+
+  tbody {
+    td {
+      font-size: 14px !important;
+      font-weight: 500 !important;
+    }
+  }
+}
