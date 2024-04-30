@@ -12,11 +12,8 @@
                 <q-icon name="trending_up" color="green" size="md" />
                 <div class="text-green q-ml-xs">17 %</div>
               </div>
-              <div
-                class="chart-container"
-                style="position: relative; height: 20vh; width: 20vw"
-              >
-                <canvas id="myChart" class="q-ml-xl"></canvas>
+              <div class="chart-container">
+                <canvas id="myChart" class="q-ml-md" />
               </div>
             </div>
           </div>
@@ -31,16 +28,13 @@
             <div class="text-weight-bold">Recent Marketing</div>
           </div>
           <div class="flex items-center">
-            <div class="row">
+            <div class="flex">
               <div class="flex q-mt-md col-lg-2 col-12">
                 <q-icon name="trending_up" color="green" size="md" />
                 <div class="text-green q-ml-xs">17 %</div>
               </div>
-              <div
-                class="chart-container col-lg col-12"
-                style="position: relative; height: 20vh; width: 20vw"
-              >
-                <canvas id="myChart1" class="q-ml-xl"></canvas>
+              <div class="chart-container col-lg-8 col">
+                <canvas id="myChart1" class="q-ml-md" />
               </div>
             </div>
           </div>

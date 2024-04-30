@@ -23,3 +23,20 @@ table {
     }
   }
 }
+
+.chart-container {
+  position: relative;
+  height: 250px;
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+  .chart-container {
+    position: relative;
+    height: 250px;
+    width: 400px;
+  }
+}

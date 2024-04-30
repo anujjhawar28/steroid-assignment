@@ -17,7 +17,7 @@
           </q-toolbar-title>
         </div>
 
-        <div class="flex items-center">
+        <div class="flex items-center hide-mobile">
           <q-icon name="notifications" size="sm" color="black" />
           <q-avatar class="q-ml-md">
             <img src="https://cdn.quasar.dev/img/avatar.png" />

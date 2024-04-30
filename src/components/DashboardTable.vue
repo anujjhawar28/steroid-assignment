@@ -2,6 +2,7 @@
   <div class="row q-mt-md">
     <div class="col-12">
       <q-table
+        :dense="$q.screen.lt.md"
         bordered
         :rows="rows"
         :columns="columns"
