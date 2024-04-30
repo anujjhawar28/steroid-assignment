@@ -13,7 +13,7 @@
                 <div class="text-green q-ml-xs">17 %</div>
               </div>
               <div class="chart-container">
-                <canvas id="myChart" class="q-ml-md" />
+                <canvas id="myChart" class="q-ml-xs" />
               </div>
             </div>
           </div>
@@ -29,12 +29,12 @@
           </div>
           <div class="flex items-center">
             <div class="flex">
-              <div class="flex q-mt-md col-lg-2 col-12">
+              <div class="flex q-mt-md">
                 <q-icon name="trending_up" color="green" size="md" />
                 <div class="text-green q-ml-xs">17 %</div>
               </div>
-              <div class="chart-container col-lg-8 col">
-                <canvas id="myChart1" class="q-ml-md" />
+              <div class="chart-container">
+                <canvas id="myChart1" class="q-ml-xs" />
               </div>
             </div>
           </div>
